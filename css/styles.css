@@ -1,0 +1,260 @@
+body{
+
+}
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding: 4%;
+}
+h2{
+font-size: 100px;
+}
+h3{
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Tajawal', sans-serif;
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+.kids-line{
+  color: #24a19c;
+  	/* font-family: 'Allura', cursive; */
+  /* font-family: Montserrat; */
+  font-family: monospace;
+  font-size: 60px;
+  margin-top: 60px;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* Navigation Bar */
+.navbar-brand{
+  /* font-family: 'Berkshire Swash', cursive; */
+  font-family: 'Satisfy', cursive;
+  font-size: 3.5rem;
+  color: #f0a500;
+  font-weight: bold;
+}
+.dropdown-menu a:hover{
+  color:#f0a500;
+
+}
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+/* .dropdown:hover .dropdown-toggle{
+  background-color: #cf7500;
+} */
+
+/* Title */
+#title{
+background-color: #f0a500;
+background: url(../images/homepageimg.jpg) no-repeat center center fixed;
+background-size: cover;
+/* background-position: center;
+height: 140vh; */
+}
+.container-fluid{
+  padding:7% 15%;
+}
+
+/* Categories */
+.categories-heading{
+  text-align: center;
+  padding: 5% 10% 0%;
+  font-family: "Montserrat";
+  weigh:bold;
+  font-size: 3rem;
+}
+/* Mens */
+#mens{
+  background-color:#fff ;
+  padding: 3%;
+  text-align: center;
+}
+
+.mens-img{
+  height: 500px;
+  /* border-radius: 100%; */
+  width: 500px;
+
+}
+.mens-tShirts-img{
+   width: 80%;
+   padding: 5%;
+   margin: 5%;
+   border: 2px solid black;
+}
+.mens-col{
+  padding: 1% 4%;
+}
+
+/* Womens */
+#womens{
+  background-color:#f0a500;
+  color:#fff;
+  padding: 3%;
+  background: url(../images/homepageimg2.jpg) no-repeat center center fixed;
+  /* height:100%;
+  width:100%; */
+   background-size: cover;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#wedding{
+  background: url(../images/homepageimg6.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* kids */
+#kids{
+/* background-color: #f1d1d1; */
+  /* background-color: #ffdecf; */
+  /* background-color: #cbeaed; */
+  background: url(../images/tex-2.jpg);
+  background-size: cover;
+  /* height: 70vh; */
+}
+.kids-content{
+  text-align: center;
+  padding-top: 7%;
+}
+
+.kids-img{
+  height: 70%;
+  width: 70%;
+  float: right;
+  /* transform: rotate(10deg); */
+  margin-top: 10%;
+  position: relative;
+  animation: mymove1 5s infinite;
+  border: 2px solid #3f3f44 ;
+  /* padding: 3%; */
+}
+.kids-img2{
+  height: 70%;
+  width: 70%;
+  float: left;
+  /* transform: rotate(-10deg); */
+  margin-top: 10%;
+  position: relative;
+  animation: mymove2 5s infinite;
+  border: 2px solid #3f3f44 ;
+  /* padding: 3%; */
+}
+@keyframes mymove1 {
+  from {left: 400px;}
+  to {left: 0px;}
+}
+@keyframes mymove2 {
+  from {right: 400px;}
+  to {right: 0px;}
+}
+/* .middle-container{
+  margin: 100px;
+} */
+hr.kids-hr{
+  width: 20%;
+  border-top: 1px solid;
+}
+hr{
+  border-style: none;
+}
+/* Footer */
+#footer{
+  background-color: #3f3f44;
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-icon{
+  margin: 1%;
+}
+
+.divider {
+	height: 500px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content:center;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.highlight{
+  color: #d3a261;
+	font-family: 'Allura', cursive;
+  /* margin-left: 15%; */
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 1px;
+}
+.topic{
+  color: #fff;
+ font-family: "Montserrat", sans-serif;
+ margin-top: -40px;
+ /* margin-left: 20%; */
+ letter-spacing: 5px;
+ font-size: 50px;
+ text-align: center;
+/* text-align: center;
+font-weight: bold;
+font-size: 35px;
+margin-top: -30px;
+letter-spacing: 5px;
+weight:bold; */
+}
+
+
+.highlight-kid{
+    /* color: #e19999; */
+  color: #d3a261;
+	font-family: 'Allura', cursive;
+  /* margin-left: 15%; */
+  font-size: 80px;
+}
+.topic-kid{
+  color: #222831;
+ font-family: "Montserrat", sans-serif;
+ /* margin-left: 20%; */
+ letter-spacing: 5px;
+ font-size: 35px;
+ margin-top: -45px;
+/* text-align: center;
+font-weight: bold;
+font-size: 35px;
+margin-top: -30px;
+letter-spacing: 5px;
+weight:bold; */
+}
+
+.highlight-wedding{
+  color: #222831;
+	font-family: 'Allura', cursive;
+  /* margin-left: 15%; */
+  font-size: 80px;
+  font-weight: bold;
+}
+.topic-wedding{
+  color: #222831;
+ font-family: "Montserrat", sans-serif;
+ /* margin-left: 20%; */
+ letter-spacing: 5px;
+ font-size: 35px;
+ margin-top: -45px;
+/* text-align: center;
+font-weight: bold;
+font-size: 35px;
+margin-top: -30px;
+letter-spacing: 5px;
+weight:bold; */
+}
